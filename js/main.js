@@ -42,7 +42,7 @@ messagesRef.on("child_added", function(snapshot, prevChildKey) {
     
     messageList.append(messageElement);
     
-    mesageList[0].scrollTop = messageList[0].scrollHeight;
+    messageList[0].scrollTop = messageList[0].scrollHeight;
 })
 
 
